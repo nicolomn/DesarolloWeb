@@ -1,0 +1,13 @@
+navegador:
+home:		https://wireframe.cc/e1LQxk
+Rescatados:	https://wireframe.cc/fRm66h
+En adopción:	https://wireframe.cc/5O9Qiv
+Nosotros:	https://wireframe.cc/sDeeaU
+Contacto:	https://wireframe.cc/X0H8ry
+
+móvil:
+home:		https://wireframe.cc/B8Tscb
+Rescatados:	https://wireframe.cc/QsLKTw
+En adopción:	https://wireframe.cc/WAdVnB
+Nosotros:	https://wireframe.cc/QXjn2G
+Contacto:	https://wireframe.cc/1bKvmN

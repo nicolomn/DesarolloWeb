@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+html{
+	font-size:  62.5%;
+	background-color: #50A8E3;
+}
+
+/*Research para eliminar blank on top*/
+	*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+/*Clases para estilo de letra*/
+
+.thinCenter{
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.thinLeft{
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	text-align: left;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.thinRight{
+	font-family: 'roboto', sans-serif;
+	font-weight: 100;
+	text-align: right;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.mediumCenter{
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 20px;
+}
+.mediumLeft{
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.mediumRight{
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	text-align: right;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.boldCenter{
+	font-family: 'roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.boldLeft{
+	font-family: 'roboto', sans-serif;
+	font-weight: 700;
+	text-align: left;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.boldRight{
+	font-family: 'roboto', sans-serif;
+	font-weight: 700;
+	text-align: right;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+/*fin de clases para estilo de letra*/
+
+/*clases para estilo general*/
+
+.formulario{
+	width: 55%;
+	background: #24303c;
+	padding:  30px;
+	margin: auto;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	grid-area: centerContacto;
+}
+
+.controles{
+	width: 100%;
+	background-color: #24303c;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border:  solid #1f53c5;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.opciones{
+	background-color: #24303c;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border:  solid #1f53c5;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.boton{
+width: 100%;
+background: #1f53c5;
+display: block;
+align-content: center;
+align-items: center;
+text-align: center;
+margin-top: 25px;
+}
+
+.freeComment{
+	width: 100%;
+	background-color: #24303c;
+	border:  solid #1f53c5;
+	height: 200px;
+	display: block;
+	margin-top: 30px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*fin de clases para estilo general*/
+
+/*categorias generales por separador*/
+
+nav{
+	background-color: #085E97;
+	width: 100%;
+}
+
+footer{
+	background: rgb(8,94,151);
+	background: linear-gradient(90deg, rgba(8,94,151,1) 0%, rgba(33,70,94,1) 50%, rgba(8,94,151,1) 100%);
+}
+
+aside{
+	background: rgb(11,138,222);
+	background: linear-gradient(90deg, rgba(11,138,222,1) 0%, rgba(8,94,151,1) 50%, rgba(11,138,222,1) 100%);
+	color: white;
+}
+
+div img{
+	width: 15vw;
+	height: 25vh;
+	border: solid #085E97;
+}
+
+header ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+header ul li a{
+	list-style: none;
+	color: white; 
+	text-decoration: none;
+}
+
+fieldset legend{
+	font-family: 'roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 2.2rem;
+	line-height: 3rem;
+}
+
+/*fin de categorias generales por separador*/
+
+/* Probando GRID 
+
+.cajaRescatados{
+	border: solid #085E97;
+	width: 15%;
+	height: 300px;
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+}
+
+.contenedorRescatados{
+	display: flex;
+	width: 100%;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+
+}
+*/
+
+/*ID identificadores para selecciones*/
+
+#title{
+	font-size: 6rem;
+	display: block;
+	text-decoration: none; 
+	color: white;	
+	display: block;
+	padding-bottom: 70px;
+	line-height: 12rem;
+	width: 20vw;
+}
+
+#tituloForm{
+	padding-bottom: 20px;
+}
+
+#navbar{
+	font-size: 4rem;
+	line-height: 6rem;
+	width: 100%;
+}
+
+#footer{
+	font-size:	3rem;
+	color: white;
+	line-height: 4rem;
+}
+
+#gracias{
+	font-size: 4rem;
+	line-height: 5rem;
+	display: block;
+	margin-top:20px;
+	padding-top:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border: solid black;
+}
+
+#introVid{
+	width: 60vw;	
+	height: 600px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border: double black;
+}
+
+#articulo{
+	font-size: 2.3rem;
+	line-height: 3.4rem;
+	padding-top: 2vh;
+}
+
+#detail{
+	font-size: 2rem;
+	line-height: 3rem;
+	padding: 15px;
+	text-align: center;
+}
+
+
+#pieImg{
+	font-size: 1.5rem;
+	padding: 15px;
+}
+
+#separador{
+	background-color: #085E97;
+}
+
+#introNosotros{
+	font-size: 2.5rem;
+	line-height: 4.0rem;
+	padding-top: 35px;
+}
+
+#imgHero{
+	width: 55%;
+}
+
+/*PONER FONDO BLANCO PARA LAS 4 IMAGENES DE CONTACTO #50A8E3*/
+
+#topFormulario{
+	grid-area: topContacto;
+	justify-content: center;
+	margin: auto;
+	padding: auto;
+	height: 20vh;	
+	width: 35vw;
+}
+
+/*PONER FONDO BLANCO PARA LAS 4 IMAGENES DE CONTACTO #50A8E3*/
+#bottomFormulario{
+	grid-area: bottomContacto;
+	margin: auto;
+	padding: auto;
+	height: 20vh;	
+	width: 35vw;
+}
+
+/*PONER FONDO BLANCO PARA LAS 4 IMAGENES DE CONTACTO #50A8E3*/
+#rightFormulario{
+	grid-area: rightContacto;
+	height: 20vh;	
+	width: 20vw;
+}
+
+/*PONER FONDO BLANCO PARA LAS 4 IMAGENES DE CONTACTO #50A8E3*/
+#leftFormulario{
+	grid-area: leftContacto;
+	margin: auto;
+	padding: auto;	
+	height: 20vh;	
+	width: 20vw;
+}
+
+
+/*fin ID identificadores para selecciones*/
+
+/*---------FIN DE LOS ESTILOS, CLASES, ID------------*/
+
+/*contenedores y cajas para flex*/
+
+.contenedorAdultos{
+	display: inline-block;
+	width: 100%;
+	height: 40vh;	
+	border: none;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.contenedorCachorros{
+	display: inline-block;
+	width: 100%;
+	height: 100vh;	
+	border: none;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.contenedorGatosAdultos{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 40vh;
+	float: right;
+	flex-wrap: wrap;
+}
+
+.contenedorPerrosAdultos{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 40vh;
+	float: left;
+	flex-wrap: wrap;
+}
+
+
+.contenedorPerrosCachorros{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 100vh;
+	float: left;
+	flex-wrap: wrap;
+}
+
+.contenedorGatosCachorros{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 100vh;
+	float: right;
+	flex-wrap: wrap;
+}
+
+.cajaPerros{
+	border: none;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 50vh;
+	width: 45%;
+	margin-bottom: 10px;
+}
+
+
+.cajaGatos{
+	border: none;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 50vh;
+	width: 45%;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.cajaSeparadora{
+	border: none;
+	height: 40px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+.cajaNosotros{
+	display: flex;
+	width: 90%;
+	border: none;
+	margin: auto;
+}
+
+/*fin de contenedores y cajas para flex*/
+
+/*contenedores y cajas para grid*/
+
+#gridRescatados1{
+	text-align: center;
+margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado1;
+}
+
+#gridRescatados2{
+	text-align: center;
+margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado2;
+}
+
+#gridRescatados3{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado3;
+}
+
+#gridRescatados4{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado4;
+}
+
+#gridRescatados5{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado5;
+}
+
+#gridRescatados6{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado6;
+}
+
+#gridRescatados7{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado7;
+}
+
+#gridRescatados8{
+	text-align: center;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: rescatado8;
+}
+
+#gridIntroRescatados{
+	border: none;
+	margin: 1vh 1vw 1vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	justify-content: space-evenly;
+	grid-area: detail;
+}
+
+.mainGridsRescatados{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: repeat(3, 1fr);	
+	grid-template-areas: 
+	"rescatado1 rescatado2 rescatado3"
+	"rescatado4 detail rescatado5"
+	"rescatado6 rescatado7 rescatado8";
+}
+
+/*REVISAR: Funciona para menores a 1080 pero no para las mayores.
+ Actualicé el wireframe (contacto) para que se vea que quiero lograr
+ desktop(error): https://wireframe.cc/X0H8ry 
+ mobile(ok): https://wireframe.cc/1bKvmN */
+
+.mainGridsContacto{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);	
+	grid-template-areas: 
+	"topContacto topContacto topContacto"
+	"leftFormulario centerContacto rightFormulario"
+	"bottomContacto bottomContacto bottomContacto";
+}
+
+/*fin de contenedores y cajas para grid*/
+
+/*Media query para mobile*/
+
+@media only screen and (max-width: 1080px){
+
+	.mainGridsRescatados{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		grid-template-areas:
+		"detail detail"
+		"rescatado1 rescatado2"
+		"rescatado3 rescatado4"	
+		"rescatado5 rescatado6"
+		"rescatado7 rescatado8";
+	}
+
+
+	#rightFormulario{
+		display:  none
+	}
+
+	#leftFormulario{
+		display:  none
+	}
+
+/*	header ul{
+		display: inline-block;
+		width: 100%;*/
+	.mainGridsContacto{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas:
+		"topContacto topContacto topContacto"
+		". centerContacto ."
+		"bottomContacto bottomContacto bottomContacto";
+	}
+
+.contenedorAdultos{
+	height: 70vh;	
+	}
+
+.contenedorCachorros{
+	height: 140vh;	
+	}
+
+.cajaGatos{
+	height: 50vh;	
+	}
+
+.cajaPerros{
+	height: 50vh;	
+	}
+
+.contenedorGatosCachorros{
+	height: 140vh;	
+	}
+
+.contenedorPerrosCachorros{
+	height: 140vh;	
+	} 	
+}

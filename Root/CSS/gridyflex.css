@@ -1,0 +1,210 @@
+/*contenedores y cajas para flex*/
+
+.contenedorAdultos{
+	display: inline-block;
+	width: 100%;
+	height: 425px;	
+	border: none;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.contenedorCachorros{
+	display: inline-block;
+	width: 100%;
+	height: 875px;	
+	border: none;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.contenedorGatosAdultos{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 415px;
+	float: right;
+	flex-wrap: wrap;
+}
+
+.contenedorPerrosAdultos{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 415px;
+	float: left;
+	flex-wrap: wrap;
+}
+
+
+.contenedorPerrosCachorros{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 825px;
+	float: left;
+	flex-wrap: wrap;
+}
+
+.contenedorGatosCachorros{
+	width: 45%;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 825px;
+	float: right;
+	flex-wrap: wrap;
+}
+
+.cajaPerros{
+	border: none;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 400px;
+	width: 45%;
+	margin-bottom: 10px;
+}
+
+
+.cajaGatos{
+	border: none;
+	text-align: center;
+	justify-content: space-evenly;
+	height: 400px;
+	width: 45%;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.cajaSeparadora{
+	border: none;
+	height: 40px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+.cajaNosotros{
+	display: flex;
+	width: 90%;
+	border: none;
+	margin: auto;
+}
+
+/*fin de contenedores y cajas para flex*/
+
+/*contenedores y cajas para grid*/
+
+.templateAreas{
+	display: grid;
+	width: 99%;
+	grid-template-columns: ;
+	grid-auto-rows: ;
+}
+
+
+#gridRescatados1{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado1;
+}
+
+#gridRescatados2{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado2;
+}
+
+#gridRescatados3{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado3;
+}
+
+#gridRescatados4{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado4;
+}
+
+#gridRescatados5{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado5;
+}
+
+#gridRescatados6{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado6;
+}
+
+#gridRescatados7{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado7;
+}
+
+#gridRescatados8{
+	text-align: center;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: rescatado8;
+}
+
+#gridRescatados{
+	border: none;
+	margin: 5px;
+	padding: 50px;
+	justify-content: space-evenly;
+	grid-area: detail;
+}
+
+.mainGridsRescatados{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto auto;
+	grid-auto-rows: auto auto auto;	
+	grid-template-areas: 
+	"rescatado1 rescatado2 rescatado3"
+	"rescatado4 detail rescatado5"
+	"rescatado6 rescatado7 rescatado8";
+}
+
+.mainGridsContacto{
+	width: 60%;
+	margin: auto;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: auto auto auto;
+	grid-auto-rows: auto auto auto;	
+	grid-template-areas: 
+	"topContacto topContacto topContacto "
+	"leftContacto centerContacto rightContacto"
+	"bottomContacto bottomContacto bottomContacto";
+}
+
+/*fin de contenedores y cajas para grid*/
